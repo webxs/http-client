@@ -1,4 +1,5 @@
 {
+  "minimum-stability": "dev",
   "name": "furqansiddiqui/http-client",
   "type": "library",
   "description": "Straightforward HTTP client",
@@ -8,6 +9,7 @@
   ],
   "license": "MIT",
   "require": {
+    "furqansiddiqui/http-client": "dev-master",
     "php": ">=7.1.0",
     "ext-curl": "*",
     "ext-json": "*"
